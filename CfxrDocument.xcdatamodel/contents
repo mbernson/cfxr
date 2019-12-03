@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15508" systemVersion="19B88" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Sound" representedClassName="Sound" syncable="YES">
+        <attribute name="attackTime" optional="YES" attributeType="Float" usesScalarValueType="NO"/>
+        <attribute name="bitDepth" optional="YES" attributeType="Integer 16" defaultValueString="16" usesScalarValueType="NO"/>
+        <attribute name="changeAmount" optional="YES" attributeType="Float" usesScalarValueType="NO"/>
+        <attribute name="changeSpeed" optional="YES" attributeType="Float" usesScalarValueType="NO"/>
+        <attribute name="decayTime" optional="YES" attributeType="Float" defaultValueString="0.4" usesScalarValueType="NO"/>
+        <attribute name="deltaSlide" optional="YES" attributeType="Float" usesScalarValueType="NO"/>
+        <attribute name="dutySweep" optional="YES" attributeType="Float" usesScalarValueType="NO"/>
+        <attribute name="highpassFilterCutoff" optional="YES" attributeType="Float" usesScalarValueType="NO"/>
+        <attribute name="highpassFilterCutoffSweep" optional="YES" attributeType="Float" usesScalarValueType="NO"/>
+        <attribute name="index" optional="YES" attributeType="Integer 32" usesScalarValueType="NO"/>
+        <attribute name="lowpassFilterCutoff" optional="YES" attributeType="Float" defaultValueString="1" usesScalarValueType="NO"/>
+        <attribute name="lowpassFilterCutoffSweep" optional="YES" attributeType="Float" usesScalarValueType="NO"/>
+        <attribute name="lowpassFilterResonance" optional="YES" attributeType="Float" usesScalarValueType="NO"/>
+        <attribute name="minFrequencyCutoff" optional="YES" attributeType="Float" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String" defaultValueString="Unnamed"/>
+        <attribute name="phaserOffset" optional="YES" attributeType="Float" usesScalarValueType="NO"/>
+        <attribute name="phaserSweep" optional="YES" attributeType="Float" usesScalarValueType="NO"/>
+        <attribute name="rating" optional="YES" attributeType="Integer 16" minValueString="0" maxValueString="100" defaultValueString="0" usesScalarValueType="NO"/>
+        <attribute name="repeatSpeed" optional="YES" attributeType="Float" usesScalarValueType="NO"/>
+        <attribute name="sampleRate" optional="YES" attributeType="Integer 32" defaultValueString="44100" usesScalarValueType="NO"/>
+        <attribute name="slide" optional="YES" attributeType="Float" usesScalarValueType="NO"/>
+        <attribute name="squareDuty" optional="YES" attributeType="Float" usesScalarValueType="NO"/>
+        <attribute name="startFrequency" optional="YES" attributeType="Float" defaultValueString="0.3" usesScalarValueType="NO"/>
+        <attribute name="sustainPunch" optional="YES" attributeType="Float" usesScalarValueType="NO"/>
+        <attribute name="sustainTime" optional="YES" attributeType="Float" defaultValueString="0.3" usesScalarValueType="NO"/>
+        <attribute name="vibratoDepth" optional="YES" attributeType="Float" usesScalarValueType="NO"/>
+        <attribute name="vibratoSpeed" optional="YES" attributeType="Float" usesScalarValueType="NO"/>
+        <attribute name="volume" optional="YES" attributeType="Float" defaultValueString="50" usesScalarValueType="NO"/>
+        <attribute name="waveType" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO"/>
+    </entity>
+    <elements>
+        <element name="Sound" positionX="45" positionY="15" width="128" height="480"/>
+    </elements>
+</model>
